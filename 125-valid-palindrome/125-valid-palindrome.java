@@ -8,7 +8,7 @@ class Solution {
                 b.append(s.charAt(i));
             }
         }
-        System.out.println("b is :"+b);
+        // System.out.println("b is :"+b);
         int n=b.length()-1;
         for(int i=0; i<b.length()/2;i++){
             if(b.charAt(i)!=b.charAt(n-i)) // 1 2 3 3 2 1
