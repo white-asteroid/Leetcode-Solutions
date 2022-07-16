@@ -2,7 +2,7 @@ class Solution {
    
      public List<String> letterCombinationsRec(String p,String up){
        
-		if(up.isEmpty()) {
+		if(up == "") {
 			ArrayList<String> list = new ArrayList<String>();
 			list.add(p);
 			return list;
