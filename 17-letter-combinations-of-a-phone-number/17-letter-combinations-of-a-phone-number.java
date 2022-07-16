@@ -16,13 +16,14 @@ class Solution {
 		// int d = up.charAt(0) - '0'; 
 		int i = (d-2)*3;
 		int len = i+3;
-		if(d==7 || d==9) {
-			len = i+4;
-		}
-		if(d>7) {
+         if(d>7) {
 			i=(d-2)*3 + 1;
 			len++;
 		}
+		if(d==7 || d==9) {
+			len = i+4;
+		}
+		
 		for(;i<len;i++)
 		{
 //			ArrayList<String> list = new ArrayList<String>();
