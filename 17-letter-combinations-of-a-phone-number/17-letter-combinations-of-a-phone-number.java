@@ -5,7 +5,7 @@ class Solution {
 		if(up == "") {
 			ArrayList<String> list = new ArrayList<String>();
 			list.add(p);
-			 System.out.println(list);
+			 // System.out.println(list);
 			return list;
 			
 		}
@@ -28,7 +28,7 @@ class Solution {
 //			ArrayList<String> list = new ArrayList<String>();
 			char ch = (char)('a'+i);
 			list.addAll(letterCombinationsRec(p+ch,up.substring(1)));
-            System.out.println(list);
+            // System.out.println(list);
 			
 		}
 		
