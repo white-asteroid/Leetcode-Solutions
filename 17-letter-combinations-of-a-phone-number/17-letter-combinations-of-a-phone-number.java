@@ -2,18 +2,13 @@ class Solution {
    
      public List<String> letterCombinationsRec(String p,String up){
        
-		if(up == "") {
+		if(up.isEmpty()) {
 			ArrayList<String> list = new ArrayList<String>();
 			list.add(p);
-			 // System.out.println(list);
 			return list;
-			
 		}
 		ArrayList<String> list = new ArrayList<String>();
 		int d = up.charAt(0) - '0'; 
-		// TODO Auto-generated method stub
-//		System.out.println(d);
-		// int d = up.charAt(0) - '0'; 
 		int i = (d-2)*3;
 		int len = i+3;
          if(d>7) {
