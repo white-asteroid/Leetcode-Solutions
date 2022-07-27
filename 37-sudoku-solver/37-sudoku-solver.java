@@ -68,7 +68,7 @@ class Solution {
 
     
     public void solveSudoku(char[][] board) {
-        if(solveString(board))
+        solveString(board);
             return;
     }
 }
