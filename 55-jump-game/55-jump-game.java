@@ -11,7 +11,7 @@ class Solution {
            
             limit = i+cj;
              // cj--;
-            System.out.println("cj : "+cj+" limit : "+limit+" i : "+i);
+            // System.out.println("cj : "+cj+" limit : "+limit+" i : "+i);
             if(i+arr[i] >= arr.length-1 )
                 return true;
             
