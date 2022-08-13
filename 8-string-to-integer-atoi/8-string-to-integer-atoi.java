@@ -30,9 +30,9 @@ class Solution {
             t =s.charAt(i) -'0';
           
 
-            System.out.println(res+ "t : "+t);
-            System.out.print("Condition : ");
-            System.out.println((res >  Integer.MAX_VALUE / 10 || (res ==  Integer.MAX_VALUE / 10 && s.charAt(i) - '0' > 7)));
+            // System.out.println(res+ "t : "+t);
+            // System.out.print("Condition : ");
+            // System.out.println((res >  Integer.MAX_VALUE / 10 || (res ==  Integer.MAX_VALUE / 10 && s.charAt(i) - '0' > 7)));
             if(res >  Integer.MAX_VALUE/10  || (res ==  Integer.MAX_VALUE/10 && s.charAt(i) - '0' > 7))
             {
                 res =0;
